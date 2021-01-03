@@ -4,4 +4,15 @@
 
 # Description for scripts
 
-* gitall.sh
+## gitall.sh
+* simple script to help commit through git
+
+## sync-config.sh
+Syncronize config file to client or server end.
+### Usage:
+* Two enviroment viriable which this script depending on:
+  * REMOTE_SSH: Remote ssh address as format: ```username@hostname```
+  * V2RAY_CONFIG_LOC: Local v2ray configuration repository location
+* Options:
+    * -s: push local config to the server side
+    * -c: push local config to the client side
